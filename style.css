@@ -51,7 +51,7 @@ h1, h2{
   }
 }
 
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 990px){
   body{
     background-image: url(./Calendário3.png);
   }
