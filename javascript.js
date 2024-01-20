@@ -20,31 +20,32 @@ function teste(){
 
   if (mes == 0){
     total = 31 + 29 + 31 + 30 + 18 - dia
-    fal = 31 - dia
-    res = 4
+    fal = 31 - dia + 29 - 11
+    res = 3
   }
 
   if (mes == 1){
     total = 29 + 31 + 30 + 18 -dia
-    fal = 29 - dia
+    fal = 29 - dia + 31 - 11
+
     res = 3
   }
 
   if (mes == 2){
     total = 31 + 30 + 18 - dia
-    fal = 31 - dia
+    fal = 31 - dia + 30 - 12
     res = 2
   }
 
   if (mes == 3){
     total = 30 + 18 - dia
-    fal = 30 - dia
+    fal = 31 - dia + 18 - 11
     res = 1
   }
 
-  if (mes == 5){
+  if (mes == 4){
     total = 18 - dia
-    fal = 18 - dia
+    fal = 31 - dia + 18
     res = 0
   }
   
