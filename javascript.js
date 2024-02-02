@@ -26,32 +26,44 @@ function teste(){
 
   if (mes == 1){
     total = 29 + 31 + 30 + 18 -dia
-    fal = 29 - dia + 31 - 11
-
     res = 3
+      if(dia <= 18){  
+        fal = 18 - dia
+      }else{
+        fal = 29 - dia + 18
+      }
   }
 
   if (mes == 2){
     total = 31 + 30 + 18 - dia
-    fal = 31 - dia + 30 - 12
     res = 2
+      if(dia <= 18){
+        fal = 18 - dia
+      } else {
+        fal = 31 - dia + 18
+      }
   }
 
   if (mes == 3){
     total = 30 + 18 - dia
-    fal = 31 - dia + 18 - 11
     res = 1
+      if(dia <= 18){
+        fal = 18 - dia
+      } else {
+        fal = 30 - dia + 18
+      }
   }
 
   if (mes == 4){
     total = 18 - dia
-    fal = 31 - dia + 18
+    fal = 18 - dia
     res = 0
+      
   }
   
 
     texto.innerHTML = `<h1>Faltam ${res} Meses e ${fal} Dias, <br> ${ total} Dias,</h1>` 
-    texto2.innerHTML = `<h2>${24 - hora} Horas e ${60 - minutos} Minutos</h2>`
+    texto2.innerHTML = `<h2>${23 - hora} Horas e ${60 - minutos} Minutos</h2>`
 };
 
 const fx=setTimeout(teste, 10);

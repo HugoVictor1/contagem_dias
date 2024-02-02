@@ -1,6 +1,6 @@
 body{
     display: grid;
-    background-image: url(./gabi_capa5.jpg);
+    background-image: url(./calendar.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -8,8 +8,8 @@ body{
 }
 
 #container{
-    width: 48%;
-    height: 700px;
+    width: 40%;
+    height: 600px;
     margin: auto;
     display: grid;
     grid-template-rows: 1fr 3fr 1fr;
@@ -43,7 +43,7 @@ h1, h2{
 
 @media only screen and (max-width: 1200px){
   body{
-    background-image: url(./calendario2.jpg);
+    background-image: url(./calendar\ 2.jpg);
   }
 
   #container{
@@ -54,7 +54,7 @@ h1, h2{
 
 @media only screen and (max-width: 990px){
   body{
-    background-image: url(./Calendário3.png);
+    background-image: url(./calendar\ 3.jpg);
   }
 
   #container{
