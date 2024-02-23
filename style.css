@@ -4,15 +4,13 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    justify-items: center;
+   
 }
 
 #container{
     width: 40%;
     height: 600px;
     margin: auto;
-    display: grid;
-    grid-template-rows: 1fr 3fr 1fr;
     border-radius: 10px;
     text-align: center;
     font-family: sans-serif;
@@ -20,26 +18,48 @@ body{
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-}
-
-h1, h2{
-  margin: 0;
+    padding: 0;
+    display: grid;
+    grid-template-rows: 1fr;
+    
 }
 
 .n1{
-  background-color: rgba(38, 12, 12, 0.4); 
   border-radius: 10px 10px 0 0;
-  color: WHITE;       
+  color: WHITE;   
+  height: 100%;
+  background-color: rgba(38, 12, 12, 0.4);
+  
 }
 
-.n2{
-  background-color: rgba(38, 12, 12, 0.4); 
+#texto{
+  margin: 0;
+  margin-top: 180px;
+  
 }
 
-.n3{
-  background-color: rgba(38, 12, 12, 0.4); 
-  border-radius: 0 0 10px 10px;
+#texto2{
+ margin: 0;
+
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 @media only screen and (max-width: 1200px){
   body{

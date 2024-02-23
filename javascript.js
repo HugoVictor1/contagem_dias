@@ -31,6 +31,7 @@ function teste(){
         fal = 18 - dia
       }else{
         fal = 29 - dia + 18
+        res = 2
       }
   }
 
@@ -41,6 +42,7 @@ function teste(){
         fal = 18 - dia
       } else {
         fal = 31 - dia + 18
+        res = 1
       }
   }
 
@@ -51,6 +53,7 @@ function teste(){
         fal = 18 - dia
       } else {
         fal = 30 - dia + 18
+        res = 0
       }
   }
 
